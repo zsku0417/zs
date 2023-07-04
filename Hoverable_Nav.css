@@ -1,0 +1,75 @@
+#mySidenav a {
+float: left;
+position: fixed;
+left: -101px;
+transition: 0.3s;
+padding: 15px;
+width: 120px;
+text-decoration: none;
+text-align: center;
+font-weight: bold;
+font-size: 16px;
+color: black;
+border-radius: 0 100px 100px 0;
+}
+#mySidenav a:hover {
+left: 0;
+}
+.sticky {
+position: fixed;
+top: 0;
+width: 100%;
+}
+.sticky + .content {
+padding-top: 60px;
+}
+#update {
+top: 312px;
+background-color: #F8CA9D;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+#calc {
+top: 382px;
+background-color: #FB8E7E;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+#doc {
+top: 447px;
+background-color: #C5D7C0;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+#rec {
+top: 512px;
+background-color: #8EC9BB;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+#up {
+top: 577px;
+background-color: #F2CF59;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+#forum {
+top: 637px;
+background-color: #FA6E4F;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+#update i,#calc i,
+#doc i, #rec i,
+#up i, #forum i  {
+margin-left: 10px;
+margin-right: 0px;
+font-size: 30px;
+}
+

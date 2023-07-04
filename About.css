@@ -1,0 +1,66 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+background: #FFF8E7;
+}
+
+.about-section {
+margin-top: 10px;
+padding: 50px;
+text-align: center;
+background-color: #474e5d;
+color: white;
+border-radius: 15px;
+}
+.title {
+text-align: center;
+}
+
+.out {
+margin-left: 120px 
+}
+
+.box {
+background-color: #fff;
+border-radius: 10px;
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+display: inline-block;
+margin: 20px;
+padding: 20px;
+text-align: center;
+width: 250px;
+}
+
+.full_name {
+font-size: 20px;
+font-weight: bold;
+margin-top: 10px;
+text-transform: uppercase;
+}
+
+.contact_num {
+font-size: 16px;
+margin-top: 10px;
+}
+
+.email_add {
+font-size: 16px;
+margin-top: 10px;
+}
+
+.staff_poss {
+font-size: 16px;
+margin-top: 10px;
+}
+
+img {
+margin-bottom: 10px;
+}
+
+a {
+color: #3366cc;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}

@@ -1,0 +1,142 @@
+body {
+background: linear-gradient(90deg, #FA6E4F 0%, #FFC600 100%);
+}
+.comment {
+background-color: #e6f2ff;
+width: 55%;
+margin: 10px auto;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+text-align: center;
+margin-bottom: 70px;
+}
+.forum-container {
+background-color: #b3d9ff;
+width: 300px;
+height: 100%;
+margin: 20px 20px;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+justify-content: space-between;
+}
+.img {
+height: 200px;
+margin: 10px auto;
+}
+.forum-container img {
+width: 100%;
+}
+.question {
+background-color: #fff;
+width: 55%;
+margin: 10px auto;
+margin-top: 30px;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.question h2 {
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+.question p {
+font-size: 18px;
+margin-bottom: 10px;
+}
+.answer {
+background-color: #f2f2f2;
+width: 55%;
+margin: 10px auto;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.answer h2 {
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+.answer p {
+font-size: 18px;
+margin-bottom: 10px;
+}
+.answer span {
+font-weight: bold;
+}
+.title {
+text-align: center;
+margin-top: 40px;
+margin-bottom: 20px;
+}
+.title h1 {
+font-size: 36px;
+font-weight: bold;
+text-transform: uppercase;
+color: #333;
+margin-bottom: 10px;
+}
+.search {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.search form {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+}
+.search label {
+margin-right: 10px;
+}
+.search select {
+font-size: 16px;
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+margin-right: 10px;
+}
+.search button {
+font-size: 16px;
+padding: 8px 16px;
+border: none;
+background-color: #4CAF50;
+color: #fff;
+border-radius: 4px;
+cursor: pointer;
+}
+.search button:hover {
+background-color: #3e8e41;
+}
+@media screen and (max-width: 768px) {
+.search form {
+flex-direction: column;
+}
+.search select {
+margin-bottom: 10px;
+}
+}
+.action-btn,
+.delete {
+display: inline-block;
+padding: 8px 16px;
+background-color: #007bff;
+color: #fff;
+border-radius: 4px;
+text-decoration: none;
+font-weight: bold;
+}
+.action-btn:hover {
+background-color: green;
+color: #fff;
+}
+.delete:hover {
+background-color: red;
+color: #fff;
+}
